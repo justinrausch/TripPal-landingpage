@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Roamy – Plan Your Perfect Trip</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="#" class="logo">
+        <span class="logo-icon">✈</span>
+        Roamy
+      </a>
+      <ul class="nav-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#how">How it works</a></li>
+        <li><a href="#testimonials">Reviews</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+      </ul>
+      <a href="#waitlist" class="btn btn-primary nav-cta">Get early access</a>
+      <button class="hamburger" aria-label="Menu" id="hamburger">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#features">Features</a>
+      <a href="#how">How it works</a>
+      <a href="#testimonials">Reviews</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#waitlist" class="btn btn-primary">Get early access</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="blob blob-3"></div>
+    </div>
+    <div class="container hero-content">
+      <div class="badge">AI-powered travel planning</div>
+      <h1>Travel more.<br />Stress less.</h1>
+      <p class="hero-subtitle">
+        Roamy turns your travel dreams into perfectly crafted itineraries in seconds.
+        Just tell us where you want to go — we handle the rest.
+      </p>
+      <div class="hero-ctas">
+        <a href="#waitlist" class="btn btn-primary btn-lg">Start planning for free</a>
+        <a href="#how" class="btn btn-ghost btn-lg">See how it works →</a>
+      </div>
+      <div class="hero-social-proof">
+        <div class="avatars">
+          <img src="https://i.pravatar.cc/40?img=1" alt="user" />
+          <img src="https://i.pravatar.cc/40?img=2" alt="user" />
+          <img src="https://i.pravatar.cc/40?img=3" alt="user" />
+          <img src="https://i.pravatar.cc/40?img=4" alt="user" />
+          <img src="https://i.pravatar.cc/40?img=5" alt="user" />
+        </div>
+        <span>Loved by <strong>12,000+</strong> travellers</span>
+      </div>
+    </div>
+    <div class="hero-image-wrapper">
+      <div class="hero-card-mockup">
+        <div class="mockup-header">
+          <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+          <span class="mockup-title">My Tokyo Trip · 7 days</span>
+        </div>
+        <div class="mockup-body">
+          <div class="itinerary-day">
+            <div class="day-label">Day 1</div>
+            <div class="day-items">
+              <div class="day-item"><span class="item-icon">🗼</span>Tokyo Tower + Zojo-ji Temple</div>
+              <div class="day-item"><span class="item-icon">🍜</span>Lunch at Ichiran Ramen</div>
+              <div class="day-item"><span class="item-icon">🛍️</span>Shibuya Crossing & shopping</div>
+              <div class="day-item"><span class="item-icon">🍣</span>Dinner: Omakase experience</div>
+            </div>
+          </div>
+          <div class="itinerary-day">
+            <div class="day-label">Day 2</div>
+            <div class="day-items">
+              <div class="day-item"><span class="item-icon">⛩️</span>Senso-ji Shrine, Asakusa</div>
+              <div class="day-item"><span class="item-icon">🎮</span>Akihabara afternoon</div>
+              <div class="day-item"><span class="item-icon">🌸</span>Ueno Park stroll</div>
+            </div>
+          </div>
+          <div class="mockup-badge">
+            <span>✨ AI-generated in 4 seconds</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOGOS -->
+  <section class="logos-bar">
+    <div class="container">
+      <p class="logos-label">As seen in</p>
+      <div class="logos-row">
+        <span class="logo-placeholder">TechCrunch</span>
+        <span class="logo-placeholder">Forbes</span>
+        <span class="logo-placeholder">The Verge</span>
+        <span class="logo-placeholder">Lonely Planet</span>
+        <span class="logo-placeholder">Condé Nast</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features section" id="features">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge">Features</div>
+        <h2>Everything you need to travel smarter</h2>
+        <p>From inspiration to boarding pass — Roamy is your end-to-end travel companion.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🧠</div>
+          <h3>AI Itinerary Builder</h3>
+          <p>Describe your ideal trip and get a personalised day-by-day plan instantly, tailored to your budget and interests.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🗺️</div>
+          <h3>Interactive Maps</h3>
+          <p>Visualise your entire trip on a beautiful map. Drag-and-drop activities to optimise your route.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">💰</div>
+          <h3>Budget Tracker</h3>
+          <p>Set a budget, track expenses in real-time, and get smart suggestions to keep costs under control.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">👥</div>
+          <h3>Group Planning</h3>
+          <p>Invite friends, vote on activities together, and collaborate on the perfect group itinerary.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📡</div>
+          <h3>Offline Access</h3>
+          <p>Download your itinerary for offline use. No roaming data needed — your plans are always with you.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🔔</div>
+          <h3>Smart Alerts</h3>
+          <p>Flight delays, weather changes, local events — we keep you informed so nothing catches you off guard.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="how section" id="how">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge">How it works</div>
+        <h2>Plan a trip in 3 simple steps</h2>
+        <p>No more juggling tabs, spreadsheets, and booking sites. Roamy does the heavy lifting.</p>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div class="step-number">01</div>
+          <div class="step-content">
+            <h3>Tell us your dream trip</h3>
+            <p>Enter your destination, travel dates, budget, and interests. The more detail you give, the better your plan.</p>
+          </div>
+        </div>
+        <div class="step-connector"></div>
+        <div class="step">
+          <div class="step-number">02</div>
+          <div class="step-content">
+            <h3>Get your personalised itinerary</h3>
+            <p>Our AI crafts a detailed day-by-day plan with activities, restaurants, transport, and booking links.</p>
+          </div>
+        </div>
+        <div class="step-connector"></div>
+        <div class="step">
+          <div class="step-number">03</div>
+          <div class="step-content">
+            <h3>Tweak, share & go</h3>
+            <p>Edit anything, invite your travel companions, and export your itinerary. Then pack your bags!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials section" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge">Reviews</div>
+        <h2>Travellers love Roamy</h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>"Roamy planned our 10-day Japan trip in under 5 minutes. It found hidden gems we never would've discovered on our own. Absolutely life-changing."</p>
+          <div class="testimonial-author">
+            <img src="https://i.pravatar.cc/48?img=11" alt="Sarah M." />
+            <div>
+              <strong>Sarah M.</strong>
+              <span>Tokyo, Japan trip</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card testimonial-featured">
+          <div class="stars">★★★★★</div>
+          <p>"I've tried every travel app out there. Roamy is the first one that actually feels like having a knowledgeable friend plan your trip. The group collaboration feature is a game-changer."</p>
+          <div class="testimonial-author">
+            <img src="https://i.pravatar.cc/48?img=32" alt="Marcus T." />
+            <div>
+              <strong>Marcus T.</strong>
+              <span>Backpacker, 20+ countries</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>"Our anniversary trip to Santorini was perfect thanks to Roamy. It even suggested the best sunset spot that wasn't in any guidebook. 10/10 would recommend."</p>
+          <div class="testimonial-author">
+            <img src="https://i.pravatar.cc/48?img=25" alt="Priya K." />
+            <div>
+              <strong>Priya K.</strong>
+              <span>Santorini, Greece trip</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="pricing section" id="pricing">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge">Pricing</div>
+        <h2>Simple, transparent pricing</h2>
+        <p>Start free. Upgrade when you're ready. No hidden fees.</p>
+      </div>
+      <div class="pricing-grid">
+        <div class="pricing-card">
+          <div class="plan-name">Free</div>
+          <div class="plan-price">$0<span>/month</span></div>
+          <p class="plan-desc">Perfect for occasional travellers</p>
+          <ul class="plan-features">
+            <li>✓ 3 AI itineraries/month</li>
+            <li>✓ Basic maps</li>
+            <li>✓ Up to 2 travellers</li>
+            <li>✓ 7-day trip max</li>
+          </ul>
+          <a href="#waitlist" class="btn btn-outline btn-full">Get started free</a>
+        </div>
+        <div class="pricing-card pricing-popular">
+          <div class="popular-badge">Most popular</div>
+          <div class="plan-name">Pro</div>
+          <div class="plan-price">$9<span>/month</span></div>
+          <p class="plan-desc">For the passionate traveller</p>
+          <ul class="plan-features">
+            <li>✓ Unlimited itineraries</li>
+            <li>✓ Advanced maps & routing</li>
+            <li>✓ Up to 10 travellers</li>
+            <li>✓ Offline access</li>
+            <li>✓ Budget tracker</li>
+            <li>✓ Smart alerts</li>
+          </ul>
+          <a href="#waitlist" class="btn btn-primary btn-full">Start free trial</a>
+        </div>
+        <div class="pricing-card">
+          <div class="plan-name">Teams</div>
+          <div class="plan-price">$29<span>/month</span></div>
+          <p class="plan-desc">For travel agencies & groups</p>
+          <ul class="plan-features">
+            <li>✓ Everything in Pro</li>
+            <li>✓ Unlimited travellers</li>
+            <li>✓ White-label export</li>
+            <li>✓ Priority support</li>
+            <li>✓ API access</li>
+          </ul>
+          <a href="#waitlist" class="btn btn-outline btn-full">Contact us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WAITLIST / CTA -->
+  <section class="waitlist section" id="waitlist">
+    <div class="container">
+      <div class="waitlist-card">
+        <div class="blob blob-w1"></div>
+        <div class="blob blob-w2"></div>
+        <div class="section-header">
+          <h2>Ready to roam?</h2>
+          <p>Join the waitlist and get 3 months of Pro free when we launch.</p>
+        </div>
+        <form class="waitlist-form" id="waitlistForm">
+          <input type="email" placeholder="Enter your email" required />
+          <button type="submit" class="btn btn-primary">Join the waitlist</button>
+        </form>
+        <p class="waitlist-note">No spam. Unsubscribe anytime. 🔒</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#" class="logo">
+        <span class="logo-icon">✈</span>
+        Roamy
+      </a>
+      <nav class="footer-links">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Blog</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+      </nav>
+      <p class="footer-copy">© 2026 Roamy. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
